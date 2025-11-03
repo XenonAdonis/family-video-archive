@@ -2,11 +2,13 @@
   "rewrites": [
     {
       "source": "/",
-      "destination": "/_site/index.html"
+      "destination": "/index.html" 
+      // Changed from /_site/index.html to /index.html
     },
     {
       "source": "/assets/(.*)",
-      "destination": "/_site/assets/$1"
+      "destination": "/assets/$1" 
+      // Changed from /_site/assets/$1 to /assets/$1
     }
   ]
 }
