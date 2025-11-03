@@ -3,12 +3,12 @@
     {
       "source": "/",
       "destination": "/index.html" 
-      // Changed from /_site/index.html to /index.html
+      // Changed: Removed /_site
     },
     {
       "source": "/assets/(.*)",
       "destination": "/assets/$1" 
-      // Changed from /_site/assets/$1 to /assets/$1
+      // Changed: Removed /_site
     }
   ]
 }
