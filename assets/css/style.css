@@ -1,0 +1,75 @@
+/* Warm Color Palette */
+:root {
+    --color-background: #fdf6e3; /* Light cream/off-white */
+    --color-text: #584a44; /* Dark brown/sepia tone */
+    --color-accent: #c45738; /* Muted orange/rust */
+    --color-line: #a08c84; /* Soft gray-brown for separators */
+    --font-serif: "Georgia", "Times New Roman", serif;
+}
+
+/* Base Styles */
+body {
+    background-color: var(--color-background);
+    color: var(--color-text);
+    font-family: var(--font-serif);
+    line-height: 1.6;
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h1 {
+    color: var(--color-accent);
+    font-size: 2.5em;
+    border-bottom: 2px solid var(--color-accent);
+    padding-bottom: 5px;
+}
+
+header p {
+    font-style: italic;
+    margin-bottom: 40px;
+}
+
+/* Video Post Styles (Newspaper Layout) */
+.video-post {
+    padding: 20px 0;
+    border-bottom: 1px solid var(--color-line); /* The separating line */
+    margin-bottom: 20px;
+}
+
+.video-post:last-child {
+    border-bottom: none; /* Remove line after the last post */
+}
+
+.video-title {
+    color: var(--color-text);
+    font-size: 1.8em;
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+.post-meta {
+    font-size: 0.9em;
+    color: #887d77;
+    margin-bottom: 15px;
+    display: block; /* Ensures the date is on its own line */
+}
+
+/* Responsive YouTube Embed */
+.video-container {
+    position: relative;
+    padding-bottom: 56.25%; /* 16:9 aspect ratio */
+    height: 0;
+    overflow: hidden;
+    max-width: 100%;
+    background: #000;
+}
+
+.video-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: 0;
+}
