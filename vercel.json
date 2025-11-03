@@ -2,13 +2,11 @@
   "rewrites": [
     {
       "source": "/",
-      "destination": "/index.html" 
-      // Changed: Removed /_site
+      "destination": "/index.html"
     },
     {
       "source": "/assets/(.*)",
-      "destination": "/assets/$1" 
-      // Changed: Removed /_site
+      "destination": "/assets/$1"
     }
   ]
 }
