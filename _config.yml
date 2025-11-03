@@ -1,7 +1,6 @@
 title: "The Family Video Archive"
 email: your-email@example.com
-description: > # This description will appear in your document header
-  A curated collection of videos for the whole family to enjoy.
+description: "A curated collection of videos for the whole family to enjoy." # <--- FIXED THIS LINE
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 github_username: your-github-username # Not strictly necessary, but good practice
