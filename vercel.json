@@ -2,11 +2,11 @@
   "rewrites": [
     {
       "source": "/",
-      "destination": "_site/index.html"
+      "destination": "/_site/index.html"
     },
     {
       "source": "/assets/(.*)",
-      "destination": "_site/assets/$1"
+      "destination": "/_site/assets/$1"
     }
   ]
 }
