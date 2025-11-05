@@ -2,7 +2,7 @@
 layout: default # Uses the structure from _layouts/default.html
 title: "Christmas 2001" # This is the editable title above the video
 author: "The Family"
-date: 2001-12-25 10:00:00 -0500 # This date is used for sorting!
+# date: 2001-12-25 10:00:00 -0500 # This date is used for sorting!
 ---
 
 <div class="video-post">
