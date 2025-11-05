@@ -13,5 +13,5 @@ date: 2001-12-25 10:00:00 -0500 # This date is used for sorting!
       <iframe src="https://www.youtube.com/embed/xoUCYCTkWU4?si=nkjbKjkpWw6mfnqN" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </div>
     
-    <p>A short note about this video, if you want to include one. For example: "This is a quick tour of the new house!"</p>
+    <p>This is the video at Bluegrass on Christmas 2001!"</p>
 </div>
